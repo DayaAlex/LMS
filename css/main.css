@@ -1,0 +1,75 @@
+body {
+    line-height: 1.6;
+    font-family:  sans-serif;
+    color: #333333;
+}
+
+
+.wrapper-main{
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+
+h5, h6 {
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+label, input {
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 8px;
+}
+
+button {
+    float: right;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
