@@ -1,8 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Gill Sans", sans-serif;
+   
 }
 
 form {
+    background-color: ghostwhite;
     margin: auto;
     width: 300px;
     padding: 1em;
@@ -11,17 +13,22 @@ form {
 }
 
 label, input {
+    text-align: center;
+    width: 300px;
+    
     margin-bottom: 10px;
     display: block;
 }
 
-input[type="text"] {
+input {
     width: 95%;
+    border: 0.5px solid #ccc;
     padding: 8px;
 }
 
 button {
-    float: right;
+    display: block;
+    margin: auto;
     padding: 8px 15px;
     background-color: #007bff;
     color: white;

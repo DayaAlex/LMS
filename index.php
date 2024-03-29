@@ -6,7 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content = "IE=edge">
         <meta name = "viewport" content = "width=device-width, 
                         initial-scale=1"> 
-
+        
+        <link rel="stylesheet" href = "css/reset.css">
         <link rel="stylesheet" href = "css/main.css">
         <link rel="stylesheet" href = "css/form.css">
         <title> Welcome to Library Management System !</title>
@@ -19,7 +20,6 @@
         <form action = "includes/login.inc.php "method = "post">
             <label>Username:</label>
             <input type= "text"  name="librarian" placeholder = "Username">
-            <br/>
             <label>Password:</label>
             <input type= "password" name ="pwd" placeholder = "Password">
             <br/>

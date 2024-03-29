@@ -1,13 +1,32 @@
 body {
     line-height: 1.6;
-    font-family:  sans-serif;
+    font-family: "Gill Sans", sans-serif;
     color: #333333;
+    background-color: rgb(210, 229, 248);
+}
+#memsearch {
+    text-align: center;
+    
 }
 
+#booksearch{
+    text-align: center;
+}
 
+#issuebook{
+    width:300px;
+    margin:auto;
+    text-align: center;
+    background-color: ghostwhite;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px; 
+}
 .wrapper-main{
     width: 900px;
     margin: 0 auto;
+    text-align: center;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,8 +64,8 @@ p {
     margin-bottom: 20px;
 }
 
-a {
-    color: #0066cc;
+a { text-align: center;
+    color: #cc00a7;
     text-decoration: none;
 }
 
@@ -62,10 +81,12 @@ label, input {
 input[type="text"] {
     width: 95%;
     padding: 8px;
+    border: 0.5px solid #ccc;
 }
 
 button {
-    float: right;
+    display: block;
+    margin: auto;
     padding: 8px 15px;
     background-color: #007bff;
     color: white;
